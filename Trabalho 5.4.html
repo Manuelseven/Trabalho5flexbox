@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+</head>
+<body>
+    <div class="boxcinza">
+        <div class="col">
+            <div class="row">
+                <div class="box" id="box1"></div>
+            </div> <!--row-->
+            <div class="row">
+                <div class="box" id="box2"></div>
+            </div> <!--row-->
+            <div class="row">
+                <div class="box" id="box3"></div>
+            </div> <!--row-->
+        </div> <!--col-->
+        <div class="col">
+            <div class="box" id="box4"></div>
+        </div> <!--col-->
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <div class="box" id="box5"></div>
+                </div> <!--col-->
+                <div class="col">
+                    <div class="box" id="box6"></div>
+                </div> <!--col-->
+            </div> <!--row-->
+            <div class="row">
+                <div class="col">
+                    <div class="box" id="box7"></div>
+                </div> <!--col-->
+                <div class="col">
+                    <div class="box" id="box8"></div>
+                </div> <!--col-->
+            </div> <!--row-->
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <div class="box" id="box9"></div>
+                        </div> <!--col-->
+                        <div class="col">
+                            <div class="box" id="box10"></div>
+                        </div> <!--col-->
+                    </div> <!--row-->
+                    <div class="row">
+                        <div class="col">
+                            <div class="box" id="box11"></div>
+                        </div> <!--col-->
+                        <div class="col">
+                            <div class="box" id="box12"></div>
+                        </div> <!--col-->
+                    </div> <!--row-->
+                </div> <!--col-->
+                <div class="col">
+                    <div class="box" id="box13"></div>
+                </div> <!--col-->
+                <div class="col">
+                    <div class="row">
+                        <div class="box" id="box14"></div>
+                    </div> <!--row-->
+                    <div class="row">
+                        <div class="box" id="box15"></div>
+                    </div> <!--row-->               
+                </div> <!--col-->
+            </div> <!--row-->
+        </div> <!--col-->
+    </div> 
+    <style>
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    display: flex;
+    background-color: #1f2429;
+}
+
+html,
+body 
+{
+    height: 100%;
+}
+
+.boxcinza 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(0,0,0,0);
+}
+
+.row 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.col 
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.box 
+{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+#box1 
+{
+    background-color: rgb(72, 184, 156);
+    width: 100px;
+    height: 50px;
+}
+
+#box2
+{
+    background-color: rgb(54, 65, 228);
+    width: 100px;
+    height: 50px;
+}
+
+#box3 
+{
+    background-color: rgb(192, 87, 241);
+    height: 120px;
+    width: 100px;
+}
+
+#box4 
+{
+    background-color: tomato;
+    height: 240px;
+    width: 50px;
+}
+
+#box5
+{
+    background-color: tomato;
+    width: 150px;
+    height: 50px;
+}
+
+#box6
+{
+    background-color: rgb(245, 77, 166);
+    width: 150px;
+    height: 50px;
+}
+
+#box7 
+{
+    background-color: rgb(54, 65, 228);
+    width: 100px;
+    height: 50px;
+}
+
+#box8 
+{
+    background-color: rgb(143, 228, 86);
+    width: 200px;
+    height: 50px;
+}
+
+#box9 
+{
+    background-color: tomato;
+    width: 100px;
+    height: 50px;
+}
+
+#box10 
+{
+    background-color: grey;
+    width: 45px;
+    height: 50px;
+}
+
+#box11 
+{
+    background-color: rgb(54, 65, 228);
+    width: 100px;
+    height: 60px;
+}
+
+#box12 
+{
+    background-color: rgb(192, 87, 241);
+    width: 45px;
+    height: 60px;
+}
+
+#box13 
+{
+    background-color: green;
+    width: 60px;
+    height: 120px;
+}
+
+#box14
+{
+    background-color: rgb(92, 80, 80);
+    height: 55px;
+    width: 55px;
+}
+
+#box15
+{
+    background-color: rgb(209, 44, 44);
+    height: 55px;
+    width: 55px;
+}
+    </style>
+</body>
+</html>
